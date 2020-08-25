@@ -1,4 +1,4 @@
-FROM mablanco/adoptopenjdk8-hotspot:latest
+FROM mablanco/adoptopenjdk8-jre-hotspot:265-b01
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update && \
     apt-get -yq install unzip && \
