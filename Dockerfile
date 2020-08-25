@@ -1,4 +1,5 @@
 FROM mablanco/adoptopenjdk8-hotspot:latest
+ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update && \
     apt-get -yq install unzip && \
     wget -q https://downloads.veracode.com/securityscan/pipeline-scan-LATEST.zip && \
