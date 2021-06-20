@@ -12,8 +12,8 @@ This image is built upon my Docker image for AdoptOpenJDK 8, as Veracode's Pipel
 
 ### Show version
 
-    $ docker run --rm mablanco/veracode-pipeline-scan java -jar pipeline-scan.jar -v
+    $ docker run --rm mablanco/veracode-pipeline-scan -v
 
 ### Check a file
 
-    $ docker run --rm -v <folder_to_scan>:/app/src mablanco/veracode-pipeline-scan java -jar pipeline-scan.jar -f src/<file>
+    $ docker run --rm -v <folder_to_scan>:/app/src mablanco/veracode-pipeline-scan -f src/<file>
