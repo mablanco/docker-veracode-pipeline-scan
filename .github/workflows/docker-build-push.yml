@@ -1,4 +1,4 @@
-name: 'Veracode's Pipeline Scan tool Docker image build and push to Docker Hub'
+name: 'Veracode Pipeline Scan tool Docker image build and push to Docker Hub'
 
 on:
   workflow_dispatch:
