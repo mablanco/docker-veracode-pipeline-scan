@@ -1,5 +1,5 @@
-FROM mablanco/adoptopenjdk8-jre-hotspot:312-b07
-ENV DEBIAN_FRONTEND noninteractive
+FROM mablanco/adoptopenjdk8-jre-hotspot:432-b06-20250120
+ARG DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && \
     apt-get -yq install unzip && \
     wget -q https://downloads.veracode.com/securityscan/pipeline-scan-LATEST.zip && \
